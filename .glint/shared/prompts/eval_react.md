@@ -5,13 +5,15 @@ mode: prompt-script
 auto-submit: false
 ---
 
+
 # Eval task: 8px grid refactor
+
+---
 
 You are given a single static page, `product.html`, for a fictional product called **foo**. The spacing is deliberately off — paddings, margins, gaps, and font-sizes do not sit on any consistent grid. Your job is to turn it into a React + Vite app, fix the spacing to a strict 8px grid, build a tool that proves the fix, and verify the result.
 
 Work through the four steps in order. Do not skip ahead.
 
----
 
 ## Step 1 — Port `product.html` into a Vite + React single-page app
 
